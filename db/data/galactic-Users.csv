@@ -1,0 +1,4 @@
+id,username,email,displayName,planet_id,isAdmin,disabled,createdAt,updatedAt
+01M0G5N4XKSC2R2G5XHN7X6TAS,planetXUser,name@example.com,Test User,01M0G5N4XJ5XJS5R6A55YR3XXX,false,false,2026-08-20T00:00:00Z,2026-08-20T00:00:00Z
+01M0G8JD60017H4K2QWMXYZSAB,planetYUser,planet-y@example.com,Planet Y User,01M0G5N4XJD7B73AW7SWBXV19T,false,false,2026-08-20T00:00:00Z,2026-08-20T00:00:00Z
+01M0G8JD60027H4K2QWMXYZSAB,adminUser,admin@example.com,Administrator,,true,false,2026-08-20T00:00:00Z,2026-08-20T00:00:00Z
