@@ -6,6 +6,10 @@ gen/
 .cdsrc-private.json
 default-*.json
 *.sqlite
+.env
+.env.local
+.env.*.local
+app/spacefarers/dist/
 
 # MTA
 mta_archives/

@@ -1,0 +1,35 @@
+{
+  "name": "sap-homework-aldi",
+  "version": "1.0.0",
+  "description": "A demo project for the spacefarers app, using SAP CAP and SQLite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-spacefarers": "cds watch --open spacefarers/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "cds": {
+    "requires": {
+      "auth": {
+        "kind": "mocked"
+      }
+    }
+  },
+  "dependencies": {
+    "@cap-js/sqlite": "^3.0.2",
+    "@sap/cds": "^10.0.6",
+    "ulid": "^3.0.2"
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "devDependencies": {
+    "cds-plugin-ui5": "^0.17.0"
+  },
+  "sapux": [
+    "app/spacefarers"
+  ]
+}
